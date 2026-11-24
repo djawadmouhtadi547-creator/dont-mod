@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dont",
+  "version": "${version}",
+  "name": "DON'T",
+  "description": "THE GAME IS NOT OVER.",
+  "authors": ["djawad1"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.djawad1.dont.DontMod"],
+    "client": ["com.djawad1.dont.client.DontClient"]
+  },
+  "mixins": [{ "config": "dont.mixins.json", "environment": "client" }],
+  "accessWidener": "dont.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

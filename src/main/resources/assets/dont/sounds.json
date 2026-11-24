@@ -1,0 +1,4 @@
+{
+  "final_jumpscare": { "sounds": ["dont:final_jumpscare"] },
+  "glitch": { "sounds": ["dont:glitch"] }
+}
